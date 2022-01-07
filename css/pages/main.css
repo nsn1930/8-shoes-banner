@@ -37,6 +37,10 @@ body {
     color: #ccc;
     margin-right: 35px;
 }
+.header .nav > a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
 .header .icons {
     margin-left: 40px;
 }
@@ -44,6 +48,11 @@ body {
     font-size: 20px;
     color: #ccc;
     margin-right: 20px;
+}
+.header .icons > i:hover {
+    color: var(--primary-color);
+    transform: scale(1.5);
+    transition: all 0.3s;
 }
 .header .fa-bars {
     display: none;
