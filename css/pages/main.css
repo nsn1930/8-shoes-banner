@@ -8,6 +8,52 @@
 /* components */
 @import '../components/button.css';
 
+body {
+    background-color: var(--primary-color);
+}
 .container {
-    background-color: red;
+    background-image: url(../../img/shoes.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+}
+.header > img {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+}
+.header > .links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header .nav > a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #ccc;
+    margin-right: 35px;
+}
+.header .icons {
+    margin-left: 40px;
+}
+.header .icons > i {
+    font-size: 20px;
+    color: #ccc;
+    margin-right: 20px;
+}
+.header .fa-bars {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .header .links {
+        display: none;
+    }
+    .header .fa-bars {
+        display: flex;
+    }
 }

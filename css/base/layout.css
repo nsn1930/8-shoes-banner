@@ -32,6 +32,7 @@ body {
         height: 100vh;
     }
     .container {
+        grid-column: 1;
         grid-row: 1;
     }
 }
