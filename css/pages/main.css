@@ -102,7 +102,7 @@ body {
 main .content,
 .price {
     font-size: 25px;
-    margin: 10px 0;
+    margin: 10px 0 30px;
     color: var(--secondary-color);
 }
 @media (max-width: 450px) {

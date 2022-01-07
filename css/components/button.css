@@ -1,0 +1,24 @@
+.btn {
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--primary-color-light);
+    transition: all 0.3s;
+}
+.main .left-column span {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
